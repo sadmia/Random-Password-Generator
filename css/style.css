@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: arial;
+	width: 100%;
+	height: 100vh;
+	background-color: #3332;
+	position: relative;
+}
+
+.box {
+	width: 350px;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 0px 5px #3333;
+	border-radius: 5px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.box h2 {
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	padding: 20px 0px;
+}
+.box select {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #3335;
+	outline: none;
+	margin: 10px 0px;
+	font-size: 16px;
+	color: #333;
+	box-sizing: border-box;
+	cursor: pointer;
+
+}
+.box select option {
+	padding-right: 50px;
+}
+
+
+.PasswordGeneratorDiv {
+	width: 100%;
+	padding-top: 30px;
+}
+.PasswordGeneratorDiv input {
+	padding: 15px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #333;
+	box-sizing: border-box;
+	font-size: 18px;
+	outline: none;
+	text-align: center;
+	cursor: pointer;
+}
+.PasswordGeneratorDiv input:last-child {
+	margin-top: 20px;
+	background-color: #FB5AF3;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	font-weight: 600;
+}
+.PasswordGeneratorDiv input:last-child:active {
+	background-color: #df40d7;
+}
+
+hr {
+	margin-top: 30px;
+	background-color: #2AC2D1;
+}
